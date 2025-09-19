@@ -22,3 +22,5 @@ public class Day3_InsertionSort {
         }
     }
 }
+
+// In insertion sort Time Complexity is - O(n^2)

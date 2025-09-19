@@ -28,3 +28,5 @@ public class Day2_SelectionSort {
         }
     }
 }
+
+// In Selection sort Time Complexity is - O(n^2)

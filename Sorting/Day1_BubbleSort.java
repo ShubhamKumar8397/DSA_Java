@@ -35,3 +35,8 @@ public class Day1_BubbleSort {
         printArray(arr);
     }
 }
+
+
+// In Bubble sort Time Complexity is - O(n^2)
+// if we use flag variable that any swaps happens
+// then the best case complexity is - o(n) - linear
