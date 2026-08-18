@@ -60,8 +60,8 @@ public class Day8 {
         Scanner sc = new Scanner(System.in);
 
         // Question-1, 2
-        System.out.println("Enter The Text :: ");
-        String text = sc.next();
+        // System.out.println("Enter The Text :: ");
+        // String text = sc.next();
         // System.out.println(findSubSequences(text));
         // printSubsequences(text, "");
 

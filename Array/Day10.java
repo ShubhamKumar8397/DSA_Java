@@ -68,11 +68,11 @@ public class Day10 {
     }
 
     static int findSumofRectangleApproach3(int[][] matrix, int l1, int r1, int l2, int r2) {
-        // mast tarika phle 2d array ke rows ka prefix sum nikal le badhwe
+        // mast tarika phle 2d array ke rows ka prefix sum nikal lo
         // then each column ka prefix sum nikal le
         // agar l1 , r1 , l2, r2 any things become zero then code have many edge cases
 
-        // original array   after row prefix    find then find column prfix
+        // original array   after row prefix    find then find column prefix
         // 1 1 1               1 2 3                1 2 3
         // 1 1 1               1 2 3                2 4 6
         // 1 1 1               1 2 3                3 6 9

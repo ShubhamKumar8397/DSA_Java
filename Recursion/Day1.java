@@ -56,7 +56,7 @@ public class Day1 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter The Value of n");
         int n = sc.nextInt();
-        // printNaturalNumber(n);
+        printNaturalNumber(n);
         // printReverseNaturalNumber(n);
         // System.out.println(factorial(n));
         // System.out.println(fibonacciSeries(n));

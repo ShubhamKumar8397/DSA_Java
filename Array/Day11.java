@@ -22,7 +22,6 @@ public class Day11 {
         int i = 0, j = list.size() - 1;
         while (i < j) {
             swapElements(list, i , j);
-            
             i++;
             j--;
         }

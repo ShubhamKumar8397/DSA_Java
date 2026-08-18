@@ -3,6 +3,7 @@ package Sorting;
 public class Day5_MergerSort {
 
     static void merge(int[] arr, int l, int mid, int r) {
+        // makes two array with length n1 and n2
         int n1 = mid - l + 1;
         int n2 = r - mid;
 
@@ -11,17 +12,20 @@ public class Day5_MergerSort {
 
         int i, j, k;
 
+        // put the original array elements in both array
+        // according to their indexes
         for (i = 0; i < n1; i++) {
             left[i] = arr[l + i];
         }
-
         for (j = 0; j < n2; j++) {
             right[j] = arr[mid + 1 + j];
         }
 
+        // step to fill the original array with sorted values of left and right array
         i = 0;
         j = 0;
         k = l;
+        
         while (i < n1 && j < n2) {
             if (left[i] < right[j]) {
                 arr[k++] = left[i++];
@@ -29,6 +33,7 @@ public class Day5_MergerSort {
                 arr[k++] = right[j++];
             }
         }
+
         while (i < n1) {
             arr[k++] = left[i++];
         }
@@ -40,11 +45,13 @@ public class Day5_MergerSort {
     }
 
     static void mergeSort(int[] arr, int l, int r) {
-        if (l >= r)
-            return;
+        if (l >= r) return;
+
         int mid = (l + r) / 2;
         mergeSort(arr, l, mid);
         mergeSort(arr, mid + 1, r);
+
+        // self work
         merge(arr, l, mid, r);
     }
 

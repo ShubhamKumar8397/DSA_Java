@@ -13,11 +13,13 @@ public class Day1_BubbleSort {
         arr[start] = arr[end];
         arr[end] = temp;
         return arr;
-    }
+    } 
 
     // Question - 1 // Sorting Algorithm 
     // Sort Array in Increasing Order 
     // hint - compare adjacent elements if smaller than swap
+
+    
     static int[] sortIncreasing(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length - 1 - i; j++) {
@@ -26,7 +28,7 @@ public class Day1_BubbleSort {
                 }
             }
         }
-        return arr;
+        return arr; 
     }
 
     public static void main(String[] args) {

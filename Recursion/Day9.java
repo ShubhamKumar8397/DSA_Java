@@ -32,13 +32,13 @@ class Day9{
     }
 
     public static void main(String[] args){
-        int [] height = {10, 30, 40, 20};
-        System.out.println(findBest(height, height.length, 0));
+        // int [] height = {10, 30, 40, 20};
+        // System.out.println(findBest(height, height.length, 0));
 
 
         // Question -2 => Keypad Questions
-        String dig = "253";
-        String []keypad = {"", "", "abc","def","ghi","mno","pqrs", "tuv", "wxyz"};   
+        String dig = "258";
+        String []keypad = {"", "abc","def","ghi","jkl","mno","pqrs", "tuv", "wxyz"};   
         combination(dig, keypad, ""); 
     }
 }

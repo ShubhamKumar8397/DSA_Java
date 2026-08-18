@@ -18,7 +18,7 @@ public class Day2 {
     // Question-3 find the count of digits in the number n
     static int countDigitsOfN(int n){
         if(n >= 0 && n <= 9) return 1;
-        int ans = 1 + countDigitsOfN(n/10);
+        int ans = 1 + countDigitsOfN(n/10);                     
         return ans;
     }
 
