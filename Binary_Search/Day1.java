@@ -60,6 +60,7 @@ public class Day1 {
 
     public static void main(String [] args){
         int [] arr = {3,5,5,5, 7, 11, 14, 17, 31,31, 53,58,58};
+        int [] newArr = new int[5];
         int target = 25;
         // findOccurence(arr, target);
         // System.out.println(findOccurence(arr, target));
