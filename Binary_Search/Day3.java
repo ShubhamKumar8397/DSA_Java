@@ -51,6 +51,11 @@ public class Day3 {
         return answer;
     }
 
+    // Question -2 Find Peak Element in Mountain Array 
+    // having m peaks present , result any one peak
+    // constraint at index -1 value -infinity
+    //            at index n value - infinity
+
     public static void main(String[] args) {
 
         // Question 1
