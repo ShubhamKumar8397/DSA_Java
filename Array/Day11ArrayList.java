@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Day11 {
+public class Day11ArrayList {
 
     static void swapElements(ArrayList<Integer> list, int i, int j){
 
