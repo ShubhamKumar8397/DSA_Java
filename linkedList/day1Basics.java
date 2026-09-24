@@ -42,6 +42,9 @@ public class day1Basics {
             size++;
         }
 
+        // Find The Nth Node From Last of the Node , 
+        // if Only Head is given
+
         // Get Element of Any Index (0 based indexing);
         int getElement(int index) {
             if (index < 0) {
