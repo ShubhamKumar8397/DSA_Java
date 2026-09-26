@@ -61,6 +61,7 @@ Jo Node Address Diya haii Usi, Node ko delete krna haii , agle wale ki replica b
         int sizeListA = 0;
         int sizeListB = 0;
 
+// find size of Both linkedList
         while (tempA != null) {
             tempA = tempA.next;
             sizeListA++;
@@ -73,8 +74,10 @@ Jo Node Address Diya haii Usi, Node ko delete krna haii , agle wale ki replica b
          tempA = headA;
          tempB = headB;
 
+// find how much bigger
         int moveValue = Math.abs(sizeListA - sizeListB);
 
+// move biggerLinkedList to moveValue
         if (sizeListA > sizeListB) {
             for(int i = 1; i <= moveValue; i++){
                 tempA = tempA.next;
@@ -87,7 +90,8 @@ Jo Node Address Diya haii Usi, Node ko delete krna haii , agle wale ki replica b
 
         NodeList answer =  null ;
 
-        while(tempA != null){
+// Compare both node and return
+        while(tempA != null && tempB != null){
             if(tempA == tempB){
                 answer = tempA;
                 break;

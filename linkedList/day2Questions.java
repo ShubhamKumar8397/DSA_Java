@@ -87,7 +87,7 @@ public class day2Questions {
 
         NodeList answer =  null ;
 
-        while(tempA != null){
+        while(tempA != null && tempB != null){
             if(tempA == tempB){
                 answer = tempA;
                 break;
